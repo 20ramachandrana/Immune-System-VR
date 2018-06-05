@@ -8,7 +8,7 @@
 <a-entity position="-.53 2.1 0">
   <a-camera></a-camera>
 <a-animation attribute="position" begin="500" from="-.53 2.1 0" to="-.53 2.1 1" ></a-animation>
-<a-animation attribute="position" begin="1000" from="-.53 2.1 1" to="0.345 1.781 -1.06"></a-animation>
+<a-animation attribute="position" begin="1000" from="-.53 2.1 1" to=".595 1.676 -.2"></a-animation>
 </a-entity>
 <a-entity obj-model="obj: url(https://raw.githubusercontent.com/immunesystemvr/Immune-System-VR/master/vr.obj); mtl: url(https://raw.githubusercontent.com/immunesystemvr/Immune-System-VR/master/vr.mtl)" position="0.3 0 -.8"></a-entity>
 <a-entity obj-model="obj: url(https://raw.githubusercontent.com/immunesystemvr/Immune-System-VR/master/blymph.obj); mtl: url(https://raw.githubusercontent.com/immunesystemvr/Immune-System-VR/master/blymph.mtl)" position="0.595 1.676 -1.54" scale=".2 .2 .2" visible="false">
