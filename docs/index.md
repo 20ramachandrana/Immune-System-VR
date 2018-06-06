@@ -5,9 +5,8 @@
   <body>
 <a-scene>
 <a-sky color="#000000"></a-sky>
-<a-entity position="-.53 2.1 0">
+<a-entity position=".315 -.35 1.8">
   <a-camera>
-<a-animation attribute="position" begin="500" from="-.53 2.1 0" to="-.53 2.1 1"></a-animation>
 </a-camera>
 </a-entity>
 <a-entity obj-model="obj: url(https://raw.githubusercontent.com/immunesystemvr/Immune-System-VR/master/vr.obj); mtl: url(https://raw.githubusercontent.com/immunesystemvr/Immune-System-VR/master/vr.mtl)" position="0.3 0 -.8"></a-entity>
