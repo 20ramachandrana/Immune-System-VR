@@ -9,7 +9,7 @@
   <a-camera>
 <a-animation attribute="position" begin="500" from="-.53 1.937 .52" to=".595 -.12 -.19"></a-animation>
 <a-animation attribute="position" begin="12000" from=".595 -.12 -.19" to="-.28 -.12 -.74"></a-animation>
-<a-animation attribute="position" begin="19000" from="-.28 -.12 -.74" to="-.28 .43 -.74"></a-animation>
+<a-animation attribute="position" begin="17500" from="-.28 -.12 -.74" to="-.28 .43 -.74"></a-animation>
 </a-camera>
 </a-entity>
 <a-entity obj-model="obj: url(https://raw.githubusercontent.com/immunesystemvr/Immune-System-VR/master/vr.obj); mtl: url(https://raw.githubusercontent.com/immunesystemvr/Immune-System-VR/master/vr.mtl)" position="0.3 0 -.8"></a-entity>
