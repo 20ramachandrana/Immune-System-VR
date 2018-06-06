@@ -7,7 +7,7 @@
 <a-sky color="#000000"></a-sky>
 <a-entity position="-.53 2.1 0">
   <a-camera>
-<a-animation attribute="position" begin="500" from="-.53 2.1 0" to="-.53 2.1 1" ></a-animation>
+<a-animation attribute="position" begin="500" from="-.53 2.1 0" to="-.53 2.1 1"></a-animation>
 <a-animation attribute="position" begin="3000" from="-.53 2.1 1" to=".595 1.676 -.4" for="2000"></a-animation>
 </a-camera>
 </a-entity>
