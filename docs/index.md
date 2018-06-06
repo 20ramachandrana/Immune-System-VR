@@ -6,7 +6,7 @@
 <a-scene>
 <a-sky color="#000000"></a-sky>
 <a-entity position="-.53 1.937 .52">
-  <a-camera>
+  <a-camera look-controls enabled="false">
 <a-animation attribute="position" begin="500" from="-.53 1.937 .52" to=".595 -.12 -.19"></a-animation>
 <a-animation attribute="position" begin="12000" from=".595 -.12 -.19" to="-.28 -.12 -.74"></a-animation>
 <a-animation attribute="position" begin="17000" from="-.28 -.12 -.74" to="-.28 .43 -.74"></a-animation>
