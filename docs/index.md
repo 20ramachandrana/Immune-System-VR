@@ -7,6 +7,8 @@
 <a-sky color="#000000"></a-sky>
 <a-entity position="-.53 1.937 .52">
   <a-camera>
+<a-animation attribute="position" begin="500" from="-.53 1.937 .52" to=".98 -.1 -.65"></a-animation>
+<a-animation attribute="position" begin="3000" from="-.53 2.1 1" to=".595 -.12 -.74" for="2000"></a-animation>
 </a-camera>
 </a-entity>
 <a-entity obj-model="obj: url(https://raw.githubusercontent.com/immunesystemvr/Immune-System-VR/master/vr.obj); mtl: url(https://raw.githubusercontent.com/immunesystemvr/Immune-System-VR/master/vr.mtl)" position="0.3 0 -.8"></a-entity>
