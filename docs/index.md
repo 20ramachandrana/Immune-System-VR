@@ -6,10 +6,7 @@
 <a-scene>
 <a-sky color="#000000"></a-sky>
 <a-entity position="-.53 1.937 .52">
-  <a-camera look-controls enabled="false">
-<a-animation attribute="position" begin="500" from="-.53 1.937 .52" to=".595 -.12 -.19"></a-animation>
-<a-animation attribute="position" begin="12000" from=".595 -.12 -.19" to="-.28 -.12 -.74"></a-animation>
-<a-animation attribute="position" begin="17000" from="-.28 -.12 -.74" to="-.28 .43 -.74"></a-animation>
+  <a-camera>
 </a-camera>
 </a-entity>
 <a-entity obj-model="obj: url(https://raw.githubusercontent.com/immunesystemvr/Immune-System-VR/master/vr.obj); mtl: url(https://raw.githubusercontent.com/immunesystemvr/Immune-System-VR/master/vr.mtl)" position="0.3 0 -.8"></a-entity>
@@ -34,6 +31,7 @@
 <a-animation attribute="visible" begin="14000" to="true"></a-animation>
 <a-animation attribute="position" begin="14500" from="-1.59 1.889 -1.3" to="-.73 2.567 -1.3" for="1000"></a-animation>    
 </a-entity>
+<a-entity obj-model="obj: url(https://raw.githubusercontent.com/immunesystemvr/Immune-System-VR/master/inflamation.obj); mtl: url(https://raw.githubusercontent.com/immunesystemvr/Immune-System-VR/master/inflamation.mtl)" position="0 0 0"></a-entity>
 </a-scene>
   </body>
 </html> 
