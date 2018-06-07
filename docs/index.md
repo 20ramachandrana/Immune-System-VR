@@ -32,7 +32,7 @@
 <a-animation attribute="position" begin="1500" from="-1.59 1.889 -1.3" to="-.73 2.567 -1.3" for="1000"></a-animation>    
 </a-entity>
 <a-entity obj-model="obj: url(https://raw.githubusercontent.com/immunesystemvr/Immune-System-VR/master/inflamation.obj); mtl: url(https://raw.githubusercontent.com/immunesystemvr/Immune-System-VR/master/inflamation.mtl)" position="0.414 -.02 -.74">
-<a-animation attribute="scale" begin="10000" from="1 1 1" to="1.1 1.1 1.1"></a-animation>
+<a-animation attribute="scale" begin="3000" from="1 1 1" to="1.1 1.1 1.1"></a-animation>
 </a-entity>
 <a-text></a-text>
 </a-scene>
