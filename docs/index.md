@@ -34,7 +34,7 @@
 <a-entity obj-model="obj: url(https://raw.githubusercontent.com/immunesystemvr/Immune-System-VR/master/inflamation.obj); mtl: url(https://raw.githubusercontent.com/immunesystemvr/Immune-System-VR/master/inflamation.mtl)" position="0.414 -.02 -.74">
 <a-animation attribute="scale" begin="3000" from="1 1 1" to="1.1 1.1 1.1"></a-animation>
 </a-entity>
-<a-text value="Through a cut in the skin, the body encounters this pathogen for the first time." position="-2.37 3.49 -1.46" color="#b40000"></a-text>
+<a-text value="Through a cut in the skin, the body encounters this pathogen for the first time." position="-2.83 3.817 -1.46" color="#b40000"></a-text>
 </a-scene>
   </body>
 </html> 
