@@ -31,7 +31,7 @@
 <a-animation attribute="visible" begin="14000" to="true"></a-animation>
 <a-animation attribute="position" begin="14500" from="-1.59 1.889 -1.3" to="-.73 2.567 -1.3" for="1000"></a-animation>    
 </a-entity>
-<a-entity obj-model="obj: url(https://raw.githubusercontent.com/immunesystemvr/Immune-System-VR/master/inflamation.obj); mtl: url(https://raw.githubusercontent.com/immunesystemvr/Immune-System-VR/master/inflamation.mtl)" position="0 0 0"></a-entity>
+<a-entity obj-model="obj: url(https://raw.githubusercontent.com/immunesystemvr/Immune-System-VR/master/inflamation.obj); mtl: url(https://raw.githubusercontent.com/immunesystemvr/Immune-System-VR/master/inflamation.mtl)" position="0.304 0 -.79"></a-entity>
 </a-scene>
   </body>
 </html> 
