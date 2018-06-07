@@ -28,12 +28,13 @@
 <a-animation attribute="position" begin="19500" from="-.7 2.173 -1.58" to="-.7 2.003 -1.58" for="500"></a-animation>
 </a-entity>
 <a-entity obj-model="obj: url(https://raw.githubusercontent.com/immunesystemvr/Immune-System-VR/master/pathogen.obj); mtl: url(https://raw.githubusercontent.com/immunesystemvr/Immune-System-VR/master/pathogen.mtl)" scale=".05 .05 .05" position="-1.59 1.889 -1.3" visible="false">
-<a-animation attribute="visible" begin="500" to="true"></a-animation>
-<a-animation attribute="position" begin="1000" from="-1.59 1.889 -1.3" to="-.73 2.567 -1.3" for="1000"></a-animation>    
+<a-animation attribute="visible" begin="1000" to="true"></a-animation>
+<a-animation attribute="position" begin="1500" from="-1.59 1.889 -1.3" to="-.73 2.567 -1.3" for="1000"></a-animation>    
 </a-entity>
 <a-entity obj-model="obj: url(https://raw.githubusercontent.com/immunesystemvr/Immune-System-VR/master/inflamation.obj); mtl: url(https://raw.githubusercontent.com/immunesystemvr/Immune-System-VR/master/inflamation.mtl)" position="0.414 -.02 -.74">
-<a-animation attribute="scale" begin="1200" from="1 1 1" to="1.1 1.1 1.1"></a-animation>
+<a-animation attribute="scale" begin="1700" from="1 1 1" to="1.1 1.1 1.1"></a-animation>
 </a-entity>
+<a-text></a-text>
 </a-scene>
   </body>
 </html> 
