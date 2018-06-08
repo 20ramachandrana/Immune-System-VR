@@ -34,7 +34,7 @@
 <a-entity obj-model="obj: url(https://raw.githubusercontent.com/immunesystemvr/Immune-System-VR/master/inflamation.obj); mtl: url(https://raw.githubusercontent.com/immunesystemvr/Immune-System-VR/master/inflamation.mtl)" position="0.414 -.02 -.74">
 <a-animation attribute="scale" begin="2000" from="1 1 1" to="1.1 1.1 1.1"></a-animation>
 </a-entity>
-<a-text value="Epidermis" position="-1.07 1.897 -1.13" color="#0000ff" rotation="0 0 -90"><a-text>
+<a-text value="skin with a cut" position="-1.07 1.897 -1.13" color="#0000ff" rotation="0 0 -90"><a-text>
 </a-scene>
   </body>
 </html> 
