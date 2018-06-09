@@ -13,9 +13,6 @@
 <a-entity obj-model="obj: url(https://raw.githubusercontent.com/immunesystemvr/Immune-System-VR/master/htc.obj); mtl: url(https://raw.githubusercontent.com/immunesystemvr/Immune-System-VR/master/htc.mtl)" position="-.61 -.02 -1.37" scale=".1 .1 .1" visible="false">
 <a-animation attribute="visible" begin="2500" to="true"></a-animation>
 <a-animation attribute="position" begin="5000" from="-.61 .771 -1.37" to="-.45 .96 -1.55" for="4000"></a-animation>
-<a-animation attribute="position" begin="7000" from="-.45 .96 -1.55" to="-.53 .973 -1.55" for="1000"></a-animation>
-<a-animation attribute="position" begin="8000" from="-.53 .973 -1.55" to="-.62 1.037 -1.52" for="500"></a-animation>
-<a-animation attribute="position" begin="8500" from="-.62 1.037 -1.52" to="-.68 1.093 -1.52" for="500"></a-animation>
 <a-animation attribute="position" begin="9000" from="-.68 1.093 -1.52" to="-.68 1.434 -1.5" for="500"></a-animation>
 <a-animation attribute="position" begin="9500" from="-.68 1.434 -1.5" to="-.72 1.49 -1.5" for="500"></a-animation>
 <a-animation attribute="position" begin="10000" from="-.72 1.49 -1.5" to="-.7 2.173 -1.58" for="500"></a-animation>
