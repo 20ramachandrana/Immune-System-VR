@@ -30,7 +30,7 @@
  <a-animation attribute="visible" begin="5500" to="true"></a-animation>   
   <a-animation attribute="visible" begin="8000" to="false"></a-animation> 
  </a-text>
-<a-text value="macrophage has processed the antigen and is alerting the t cell" color="#0000ff" visible="false" position="-1.85 3.541 -1.33">
+<a-text value="macrophage processed antigen, alerting t cell" color="#0000ff" visible="false" position="-1.85 3.541 -1.33">
 <a-animation attribute="visible" begin="14500" to="true"></a-animation></a-text>
 </a-scene>
   </body>
