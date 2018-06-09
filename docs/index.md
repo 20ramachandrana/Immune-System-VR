@@ -16,7 +16,7 @@
 <a-animation attribute="position" begin="11000" from="-.71 1 -1.19" to="-.76 1.175 -1.19" for="1000"></a-animation>
 <a-animation attribute="position" begin="12000" from="-.76 1.175 -1.19" to="-.76 1.671 -1.19" for="2000"></a-animation>
 <a-animation attribute="position" begin="14000" from="-.76 1.671 -1.19" to="-.81 1.801 -1.19" for="1000"></a-animation>
-<a-animation attribute="position" begin="15000" from="-.81 1.801 -1.19" to="-.76 2.284 -1.19" for="2000"></a-animation>
+<a-animation attribute="position" begin="15000" from="-.81 1.801 -1.19" to="-.81 2.284 -1.19" for="2000"></a-animation>
 </a-entity>
 <a-entity obj-model="obj: url(https://raw.githubusercontent.com/immunesystemvr/Immune-System-VR/master/pathogen.obj); mtl: url(https://raw.githubusercontent.com/immunesystemvr/Immune-System-VR/master/pathogen.mtl)" scale=".05 .05 .05" position="-1.59 1.889 -1.3" visible="false">
 <a-animation attribute="visible" begin="500" to="true"></a-animation>
