@@ -10,10 +10,11 @@
 </a-camera>
 </a-entity>
 <a-entity obj-model="obj: url(https://raw.githubusercontent.com/immunesystemvr/Immune-System-VR/master/vr.obj); mtl: url(https://raw.githubusercontent.com/immunesystemvr/Immune-System-VR/master/vr.mtl)" position="0.3 0 -.8"></a-entity>
-<a-entity obj-model="obj: url(https://raw.githubusercontent.com/immunesystemvr/Immune-System-VR/master/macrophage.obj); mtl: url(https://raw.githubusercontent.com/immunesystemvr/Immune-System-VR/master/macrophage.mtl)" position="-.71 -.021 -1.19" scale=".1 .1 .1" visible="false">
+<a-entity obj-model="obj: url(https://raw.githubusercontent.com/immunesystemvr/Immune-System-VR/master/macrophage.obj); mtl: url(https://raw.githubusercontent.com/immunesystemvr/Immune-System-VR/master/macrophage.mtl)" position="-.71 -.021 -1.19" scale=".07 .07 .07" visible="false">
 <a-animation attribute="visible" begin="5500" to="true"></a-animation>
 <a-animation attribute="position" begin="7000" from="-.71 -.021 -1.37" to="-.71 1 -1.19" for="4000"></a-animation>
-<a-animation attribute="position" begin="11000" from="-.71 1 -1.19" to="-.76 1.175 -1.19" for="4000"></a-animation>
+<a-animation attribute="position" begin="11000" from="-.71 1 -1.19" to="-.76 1.175 -1.19" for="1000"></a-animation>
+<a-animation attribute="position" begin="12000" from="-.76 1.175 -1.19" to="-.76 1.671 -1.19" for="2000"></a-animation>
 </a-entity>
 <a-entity obj-model="obj: url(https://raw.githubusercontent.com/immunesystemvr/Immune-System-VR/master/pathogen.obj); mtl: url(https://raw.githubusercontent.com/immunesystemvr/Immune-System-VR/master/pathogen.mtl)" scale=".05 .05 .05" position="-1.59 1.889 -1.3" visible="false">
 <a-animation attribute="visible" begin="500" to="true"></a-animation>
