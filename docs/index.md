@@ -10,7 +10,7 @@
 </a-camera>
 </a-entity>
 <a-entity obj-model="obj: url(https://raw.githubusercontent.com/immunesystemvr/Immune-System-VR/master/vr.obj); mtl: url(https://raw.githubusercontent.com/immunesystemvr/Immune-System-VR/master/vr.mtl)" position="0.3 0 -.8"></a-entity>
-<a-entity obj-model="obj: url(https://raw.githubusercontent.com/immunesystemvr/Immune-System-VR/master/htc.obj); mtl: url(https://raw.githubusercontent.com/immunesystemvr/Immune-System-VR/master/htc.mtl)" position="-.61 -.02 -1.33" scale=".1 .1 .1" visible="false">
+<a-entity obj-model="obj: url(https://raw.githubusercontent.com/immunesystemvr/Immune-System-VR/master/htc.obj); mtl: url(https://raw.githubusercontent.com/immunesystemvr/Immune-System-VR/master/htc.mtl)" position="-.61 -.02 -1.37" scale=".1 .1 .1" visible="false">
 <a-animation attribute="visible" begin="2500" to="true"></a-animation>
 <a-animation attribute="position" begin="5000" from="-.02 .96 -1.55" to="-.45 .96 -1.55" for="2000"></a-animation>
 <a-animation attribute="position" begin="7000" from="-.45 .96 -1.55" to="-.53 .973 -1.55" for="1000"></a-animation>
