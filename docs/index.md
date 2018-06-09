@@ -10,11 +10,13 @@
 </a-camera>
 </a-entity>
 <a-entity obj-model="obj: url(https://raw.githubusercontent.com/immunesystemvr/Immune-System-VR/master/vr.obj); mtl: url(https://raw.githubusercontent.com/immunesystemvr/Immune-System-VR/master/vr.mtl)" position="0.3 0 -.8"></a-entity>
-<a-entity obj-model="obj: url(https://raw.githubusercontent.com/immunesystemvr/Immune-System-VR/master/macrophage.obj); mtl: url(https://raw.githubusercontent.com/immunesystemvr/Immune-System-VR/master/macrophage.mtl)" position="-.71 -.021 -1.19" scale=".07 .07 .07" visible="false">
+<a-entity obj-model="obj: url(https://raw.githubusercontent.com/immunesystemvr/Immune-System-VR/master/macrophage.obj); mtl: url(https://raw.githubusercontent.com/immunesystemvr/Immune-System-VR/master/macrophage.mtl)" position="-.71 -.021 -1.19" scale=".05 .05 .05" visible="false">
 <a-animation attribute="visible" begin="5500" to="true"></a-animation>
 <a-animation attribute="position" begin="7000" from="-.71 -.021 -1.37" to="-.71 1 -1.19" for="4000"></a-animation>
 <a-animation attribute="position" begin="11000" from="-.71 1 -1.19" to="-.76 1.175 -1.19" for="1000"></a-animation>
 <a-animation attribute="position" begin="12000" from="-.76 1.175 -1.19" to="-.76 1.671 -1.19" for="2000"></a-animation>
+<a-animation attribute="position" begin="14000" from="-.76 1.671 -1.19" to="-.81 1.801 -1.19" for="1000"></a-animation>
+<a-animation attribute="position" begin="15000" from="-.81 1.801 -1.19" to="-.76 2.284 -1.19" for="2000"></a-animation>
 </a-entity>
 <a-entity obj-model="obj: url(https://raw.githubusercontent.com/immunesystemvr/Immune-System-VR/master/pathogen.obj); mtl: url(https://raw.githubusercontent.com/immunesystemvr/Immune-System-VR/master/pathogen.mtl)" scale=".05 .05 .05" position="-1.59 1.889 -1.3" visible="false">
 <a-animation attribute="visible" begin="500" to="true"></a-animation>
@@ -26,7 +28,9 @@
 <a-text value="skin with a cut" position="-1.07 1.897 -1.13" color="#0000ff" rotation="0 0 -90"></a-text>
 <a-text value="inflammatory response" color="#0000ff" visible="false" position="-1.85 3.541 -1.33">
  <a-animation attribute="visible" begin="5500" to="true"></a-animation>   
-  <a-animation attribute="visible" begin="8000" to="false"></a-animation>   
+  <a-animation attribute="visible" begin="8000" to="false"></a-animation> 
+ <a-animation attribute="value" begin="10000" to="macrophage has processed an antigen on the surface of the pathogen"></a-animation>
+<a-animation attribute="visible" begin="14500" to="true"></a-animation>
  </a-text>
 </a-scene>
   </body>
