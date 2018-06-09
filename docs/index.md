@@ -5,7 +5,7 @@
   <body>
 <a-scene>
 <a-sky color="#000000"></a-sky> 
-<a-entity position="-1.53 1.937 2">
+<a-entity position="-.53 1.937 1">
   <a-camera>
 </a-camera>
 </a-entity>
