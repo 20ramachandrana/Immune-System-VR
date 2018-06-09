@@ -12,11 +12,6 @@
 <a-entity obj-model="obj: url(https://raw.githubusercontent.com/immunesystemvr/Immune-System-VR/master/vr.obj); mtl: url(https://raw.githubusercontent.com/immunesystemvr/Immune-System-VR/master/vr.mtl)" position="0.3 0 -.8"></a-entity>
 <a-entity obj-model="obj: url(https://raw.githubusercontent.com/immunesystemvr/Immune-System-VR/master/blymph.obj); mtl: url(https://raw.githubusercontent.com/immunesystemvr/Immune-System-VR/master/blymph.mtl)" position="0.595 1.676 -1.54" scale=".2 .2 .2" visible="false">
 <a-animation attribute="visible" begin="2500" to="true"></a-animation>
-<a-animation attribute="position" begin="3000" from="0.595 1.676 -1.54" to=".566 1.577 -1.55" for="2000"></a-animation>
-<a-animation attribute="position" begin="4000" from=".566 1.577 -1.55" to=".525 1.511 -1.55" for="2000"></a-animation>
-<a-animation attribute="position" begin="6000" from=".525 1.511 -1.55" to=".365 1.407 -1.55" for="2000"></a-animation>
-<a-animation attribute="position" begin="8000" from=".365 1.407 -1.55" to=".365 .96 -1.55" for="2000"></a-animation>
-<a-animation attribute="position" begin="10000" from=".365 .96 -1.55" to=".072 .96 -1.55" for="2000"></a-animation>
 <a-animation attribute="position" begin="12000" from=".072 .96 -1.55" to="-.02 .96 -1.55" for="2000"></a-animation>
 <a-animation attribute="position" begin="14000" from="-.02 .96 -1.55" to="-.45 .96 -1.55" for="2000"></a-animation>
 <a-animation attribute="position" begin="16000" from="-.45 .96 -1.55" to="-.53 .973 -1.55" for="1000"></a-animation>
