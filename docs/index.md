@@ -12,13 +12,13 @@
 <a-entity obj-model="obj: url(https://raw.githubusercontent.com/immunesystemvr/Immune-System-VR/master/vr.obj); mtl: url(https://raw.githubusercontent.com/immunesystemvr/Immune-System-VR/master/vr.mtl)" position="0.3 0 -.8"></a-entity>
 <a-entity obj-model="obj: url(https://raw.githubusercontent.com/immunesystemvr/Immune-System-VR/master/htc.obj); mtl: url(https://raw.githubusercontent.com/immunesystemvr/Immune-System-VR/master/htc.mtl)" position="-.71 -.021 -1.37" scale=".1 .1 .1" visible="false">
 <a-animation attribute="visible" begin="5500" to="true"></a-animation>
-<a-animation attribute="position" begin="7000" from="-.71 -.021 -1.37" to="-.71 .892 -1.37" for="4000"></a-animation>
+<a-animation attribute="position" begin="7000" from="-.71 -.021 -1.37" to="-.71 .968 -1.37" for="4000"></a-animation>
 </a-entity>
 <a-entity obj-model="obj: url(https://raw.githubusercontent.com/immunesystemvr/Immune-System-VR/master/pathogen.obj); mtl: url(https://raw.githubusercontent.com/immunesystemvr/Immune-System-VR/master/pathogen.mtl)" scale=".05 .05 .05" position="-1.59 1.889 -1.3" visible="false">
 <a-animation attribute="visible" begin="500" to="true"></a-animation>
 <a-animation attribute="position" begin="4000" from="-1.59 1.889 -1.3" to="-.73 2.567 -1.3" for="1000"></a-animation>    
 </a-entity>
-<a-entity obj-model="obj: url(https://raw.githubusercontent.com/immunesystemvr/Immune-System-VR/master/infresp.obj); mtl: url(https://raw.githubusercontent.com/immunesystemvr/Immune-System-VR/master/infresp.mtl)" position="0.414 -.02 -.74">
+<a-entity obj-model="obj: url(https://raw.githubusercontent.com/immunesystemvr/Immune-System-VR/master/macrophage.obj); mtl: url(https://raw.githubusercontent.com/immunesystemvr/Immune-System-VR/master/macrophage.mtl)" position="0.414 -.02 -.74">
 <a-animation attribute="scale" begin="5000" from="1 1 1" to="1.1 1.1 1.1"></a-animation>
 </a-entity>
 <a-text value="skin with a cut" position="-1.07 1.897 -1.13" color="#0000ff" rotation="0 0 -90"></a-text>
