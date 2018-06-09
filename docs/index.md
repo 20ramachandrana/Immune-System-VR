@@ -27,7 +27,7 @@
 <a-animation attribute="position" begin="4000" from="-1.59 1.889 -1.3" to="-.73 2.567 -1.3" for="1000"></a-animation>    
 </a-entity>
 <a-entity obj-model="obj: url(https://raw.githubusercontent.com/immunesystemvr/Immune-System-VR/master/infresp.obj); mtl: url(https://raw.githubusercontent.com/immunesystemvr/Immune-System-VR/master/infresp.mtl)" position="0.414 -.02 -.74">
-<a-animation attribute="scale" begin="2000" from="1 1 1" to="1.1 1.1 1.1"></a-animation>
+<a-animation attribute="scale" begin="4000" from="1 1 1" to="1.1 1.1 1.1"></a-animation>
 </a-entity>
 <a-text value="skin with a cut" position="-1.07 1.897 -1.13" color="#0000ff" rotation="0 0 -90"></a-text>
 <a-text value="inflammatory response" color="#0000ff" visible="false"></a-text>
