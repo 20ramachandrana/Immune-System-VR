@@ -32,6 +32,7 @@
 <a-text value="skin with a cut" position="-1.07 1.897 -1.13" color="#0000ff" rotation="0 0 -90"></a-text>
 <a-text value="inflammatory response" color="#0000ff" visible="false" position="-1.85 3.541 -1.33">
  <a-animation attribute="visible" begin="5500" to="true"></a-animation>   
+  <a-animation attribute="visible" begin="10000" to="true"></a-animation>   
  </a-text>
 </a-scene>
   </body>
