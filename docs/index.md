@@ -90,6 +90,18 @@
 <a-animation attribute="position" begin="44500" from="-.59 .895 -1.5" to="-.59 -.18 -1.5" for="500"></a-animation>
 <a-animation attribute="visible" begin="45000" to="false"></a-animation>
 </a-entity>
+<a-text value="b cell notified, goes to site of pathogens" color="#0000ff" visible="false" position="-3.13 3.541 -1.33">
+<a-animation attribute="visible" begin="28000" to="true"></a-animation>
+<a-animation attribute="visible" begin="30000" to="false"></a-animation> 
+</a-text>
+<a-text value="b cell replicates itself and creates plasma cells" color="#0000ff" visible="false" position="-3.13 3.541 -1.33">
+<a-animation attribute="visible" begin="38000" to="true"></a-animation>
+<a-animation attribute="visible" begin="40000" to="false"></a-animation> 
+</a-text>
+<a-text value="after the pathogen is killed, memory cells stay in the bloodstream, to remove this pathogen quickly when exposed to it again" color="#0000ff" visible="false" position="-3.13 3.541 -1.33">
+<a-animation attribute="visible" begin="45500" to="true"></a-animation>
+<a-animation attribute="visible" begin="40000" to="false"></a-animation> 
+</a-text>
 </a-sky> 
 </a-scene>
   </body>
