@@ -52,7 +52,7 @@
 <a-animation attribute="position" begin="23000" from="-.81 1.801 -1.19" to="-.83 1.929 -1.19" for="2000"></a-animation>
 <a-animation attribute="visible" begin="27000" to="false"></a-animation>
 </a-entity>
-<a-entity obj-model="obj: url(https://raw.githubusercontent.com/immunesystemvr/Immune-System-VR/master/blymph.obj); mtl: url(https://raw.githubusercontent.com/immunesystemvr/Immune-System-VR/master/blymph.mtl)" position="-.71 -.021 -1.19" scale=".07 .07 .07" visible="false">
+<a-entity obj-model="obj: url(https://raw.githubusercontent.com/immunesystemvr/Immune-System-VR/master/blymph.obj); mtl: url(https://raw.githubusercontent.com/immunesystemvr/Immune-System-VR/master/blymph.mtl)" position="-.71 -.021 -1.19" scale=".2 .2 .2" visible="false">
 <a-animation attribute="visible" begin="27500" to="true"></a-animation>
 <a-animation attribute="position" begin="29000" from="-.71 -.021 -1.37" to="-.71 1 -1.19" for="4000"></a-animation>
 <a-animation attribute="position" begin="33000" from="-.71 1 -1.19" to="-.76 1.175 -1.19" for="500"></a-animation>
