@@ -29,6 +29,7 @@
 <a-entity obj-model="obj: url(https://raw.githubusercontent.com/immunesystemvr/Immune-System-VR/master/pathogen.obj); mtl: url(https://raw.githubusercontent.com/immunesystemvr/Immune-System-VR/master/pathogen.mtl)" scale=".05 .05 .05" position="-1.59 2.07 -1.3" visible="false"> 
 <a-animation attribute="visible" begin="500" to="true"></a-animation>
 <a-animation attribute="position" begin="4000" from="-1.59 1.889 -1.3" to="-.74 2.863 -1.3" for="1000"></a-animation>
+<a-animation attribute="visible" begin="40000" to="false"></a-animation>
 </a-entity>
 <a-entity obj-model="obj: url(https://raw.githubusercontent.com/immunesystemvr/Immune-System-VR/master/infresp.obj); mtl: url(https://raw.githubusercontent.com/immunesystemvr/Immune-System-VR/master/infresp.mtl)" position="0.414 -.02 -.74">
 <a-animation attribute="scale" begin="5500" from="1 1 1" to="1.1 1.1 1.1"></a-animation>
@@ -71,13 +72,14 @@
 <!-- top plasma -->
 <a-entity obj-model="obj: url(https://raw.githubusercontent.com/immunesystemvr/Immune-System-VR/master/plasmacell.obj); mtl: url(https://raw.githubusercontent.com/immunesystemvr/Immune-System-VR/master/plasmacell.mtl)" position="-.7 2.476 -1.17" scale=".025 .025 .025" visible="false">
 <a-animation attribute="visible" begin="37500" to="true"></a-animation>
-<a-animation attribute="position" begin="38500" from="-.7 2.476 -1.17"  to="-.81 2.704 -1.17" for="1000"></a-animation>
+<a-animation attribute="position" begin="38500" from="-.8 2.476 -1.17"  to="-.81 2.704 -1.17" for="1000"></a-animation>
+<a-animation attribute="visible" begin="40000" to="false"></a-animation>
 </a-entity> 
 <!-- bottom plasma -->
 <a-entity obj-model="obj: url(https://raw.githubusercontent.com/immunesystemvr/Immune-System-VR/master/plasmacell.obj); mtl: url(https://raw.githubusercontent.com/immunesystemvr/Immune-System-VR/master/plasmacell.mtl)" position="-.8 2.502 -1.17" scale=".025 .025 .025" visible="false">
 <a-animation attribute="visible" begin="37500" to="true"></a-animation>
-<a-animation attribute="position" begin="38500" from="-.8 2.502 -1.17" to="-.8 2.886 -1.17" for="200"></a-animation>
-
+<a-animation attribute="position" begin="38500" from="-.8 2.502 -1.17" to="-.81 2.650 -1.17" for="200"></a-animation>
+<a-animation attribute="visible" begin="40000" to="false"></a-animation>
 </a-entity>
 </a-sky> 
 </a-scene>
