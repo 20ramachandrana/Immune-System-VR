@@ -92,7 +92,7 @@
 </a-entity>
 <a-text value="b cell notified, goes to site of pathogen" color="#0000ff" visible="false" position="-1.85 3.541 -1.33" scale=".5 .5 .5">
 <a-animation attribute="visible" begin="28000" to="true"></a-animation>
-<a-animation attribute="visible" begin="30000" to="false"></a-animation> 
+<a-animation attribute="visible" begin="31000" to="false"></a-animation> 
 </a-text>
 <a-text value="b cell replicates itself and creates plasma cells to kill the pathogen" color="#0000ff" visible="false" position="-1.85 3.541 -1.33" scale=".5 .5 .5">
 <a-animation attribute="visible" begin="38000" to="true"></a-animation>
