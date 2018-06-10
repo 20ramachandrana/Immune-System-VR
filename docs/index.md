@@ -17,6 +17,7 @@
 <a-animation attribute="position" begin="11500" from="-.76 1.175 -1.19" to="-.76 1.671 -1.19" for="2000"></a-animation>
 <a-animation attribute="position" begin="13500" from="-.76 1.671 -1.19" to="-.81 1.801 -1.19" for="500"></a-animation>
 <a-animation attribute="position" begin="14000" from="-.81 1.801 -1.19" to="-.81 2.39 -1.19" for="2000"></a-animation>
+<a-animation attribute="visible" begin="25000" to="false"></a-animation>
 </a-entity>
 <a-entity obj-model="obj: url(https://raw.githubusercontent.com/immunesystemvr/Immune-System-VR/master/pathogen.obj); mtl: url(https://raw.githubusercontent.com/immunesystemvr/Immune-System-VR/master/pathogen.mtl)" scale=".05 .05 .05" position="-1.59 1.889 -1.3" visible="false">
 <a-animation attribute="visible" begin="500" to="true"></a-animation>
@@ -32,11 +33,11 @@
  </a-text>
 <a-text value="macrophage processed antigen, alerting t cell" color="#0000ff" visible="false" position="-3.13 3.541 -1.33">
 <a-animation attribute="visible" begin="14500" to="true"></a-animation>
-<a-animation attribute="visible" begin="20000" to="false"></a-animation> 
+<a-animation attribute="visible" begin="21000" to="false"></a-animation> 
 </a-text>
 <a-cone color="#cf2d66" rotation="180 0 0" scale=".03 .09 .03" position="-.84 2.25 -1.19" visible="false">
 <a-animation attribute="visible" begin="15500" to="true"></a-animation>  
-</a-text>   
+<a-animation attribute="visible" begin="25000" to="false"></a-animation>
 </a-cone>
 <a-entity obj-model="obj: url(https://raw.githubusercontent.com/immunesystemvr/Immune-System-VR/master/htc.obj); mtl: url(https://raw.githubusercontent.com/immunesystemvr/Immune-System-VR/master/htc.mtl)" position="-.71 -.021 -1.19" scale=".07 .07 .07" visible="false">
 <a-animation attribute="visible" begin="15500" to="true"></a-animation>
@@ -45,6 +46,7 @@
 <a-animation attribute="position" begin="20500" from="-.76 1.175 -1.19" to="-.76 1.671 -1.19" for="2000"></a-animation>
 <a-animation attribute="position" begin="22500" from="-.76 1.671 -1.19" to="-.81 1.801 -1.19" for="500"></a-animation>
 <a-animation attribute="position" begin="23000" from="-.81 1.801 -1.19" to="-.83 1.929 -1.19" for="2000"></a-animation>
+<a-animation attribute="visible" begin="25000" to="false"></a-animation>
 </a-entity>      
 </a-scene>
   </body>
