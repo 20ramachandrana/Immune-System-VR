@@ -32,7 +32,7 @@
  </a-text>
 <a-text value="macrophage processed antigen, alerting t cell" color="#0000ff" visible="false" position="-3.13 3.541 -1.33">
 <a-animation attribute="visible" begin="14500" to="true"></a-animation>
-<a-animation attribute="visible" begin="19000" to="false"></a-animation> 
+<a-animation attribute="visible" begin="20000" to="false"></a-animation> 
 </a-text>
 <a-cone color="#cf2d66" rotation="180 0 0" scale=".03 .09 .03" position="-.84 2.25 -1.19" visible="false">
 <a-animation attribute="visible" begin="15500" to="true"></a-animation>  
