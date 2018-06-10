@@ -59,14 +59,21 @@
 <a-animation attribute="position" begin="33500" from="-.65 .984 -1.5" to="-.64 1.514 -1.5" for="2000"></a-animation>
 <a-animation attribute="position" begin="35500" from="-.65 1.514 -1.5" to="-.71 1.602 -1.5" for="500"></a-animation>
 <a-animation attribute="position" begin="36000" from="-.71 1.602 -1.5" to="-.7 2.175 -1.5" for="2000"></a-animation>
+<a-animation attribute="visible" begin="38000" to="false"></a-animation>
 </a-entity>
 <!-- top plasma -->
 <a-entity obj-model="obj: url(https://raw.githubusercontent.com/immunesystemvr/Immune-System-VR/master/plasmacell.obj); mtl: url(https://raw.githubusercontent.com/immunesystemvr/Immune-System-VR/master/plasmacell.mtl)" position="-.79 2.881 -1.17" scale=".025 .025 .025" visible="false">
 <a-animation attribute="visible" begin="37500" to="true"></a-animation>
+<a-animation attribute="position" begin="38500" from="-.79 2.881 -1.17" to="-.79 2.595 -1.17" for="1000"></a-animation>
 </a-entity> 
 <!-- bottom plasma -->
 <a-entity obj-model="obj: url(https://raw.githubusercontent.com/immunesystemvr/Immune-System-VR/master/plasmacell.obj); mtl: url(https://raw.githubusercontent.com/immunesystemvr/Immune-System-VR/master/plasmacell.mtl)" position="-.68 -.02 -1.17" scale=".025 .025 .025" visible="false">
 <a-animation attribute="visible" begin="37500" to="true"></a-animation>
+<a-animation attribute="position" begin="38500" from="-.68 -.02 -1.17" to="-.68 .98 -1.17" for="200"></a-animation>
+<a-animation attribute="position" begin="38700" from="-.68 .98 -1.17" to="-.75 1.088 -1.17" for="200"></a-animation>
+<a-animation attribute="position" begin="38900" from="-.75 1.088 -1.17" to="-.75 1.63 -1.17" for="200"></a-animation>
+<a-animation attribute="position" begin="39100" from="-.75 1.63 -1.17" to="-.81 1.704 -1.17" for="200"></a-animation>
+<a-animation attribute="position" begin="39300" from="-.81 1.704 -1.17" to="-.81 2.327 -1.17" for="200"></a-animation>
 </a-entity>
 </a-sky> 
 </a-scene>
