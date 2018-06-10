@@ -99,7 +99,7 @@
 <a-animation attribute="visible" begin="40000" to="false"></a-animation> 
 </a-text>
 <a-text value="pathogen killed, memory cells stay in bloodstream, to remove pathogen quickly when exposed to it again" color="#0000ff" visible="false" position="-1.85 3.541 -1.33" scale=".5 .5 .5">
-<a-animation attribute="visible" begin="45000" to="true"></a-animation>
+<a-animation attribute="visible" begin="42000" to="true"></a-animation>
 <a-animation attribute="visible" begin="52000" to="false"></a-animation> 
 </a-text>
 </a-sky> 
