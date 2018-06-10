@@ -64,7 +64,7 @@
 <a-entity obj-model="obj: url(https://raw.githubusercontent.com/immunesystemvr/Immune-System-VR/master/plasmacell.obj); mtl: url(https://raw.githubusercontent.com/immunesystemvr/Immune-System-VR/master/plasmacell.mtl)" position="-.59 -.02 -1.5" scale=".2 .2 .2" visible="true">
 </a-entity> 
 <!-- bottom plasma -->
-<a-entity obj-model="obj: url(https://raw.githubusercontent.com/immunesystemvr/Immune-System-VR/master/plasmacell.obj); mtl: url(https://raw.githubusercontent.com/immunesystemvr/Immune-System-VR/master/plasmacell.mtl)" position="-.59 -.02 -1.5" scale=".2 .2 .2" visible="true">
+<a-entity obj-model="obj: url(https://raw.githubusercontent.com/immunesystemvr/Immune-System-VR/master/plasmacell.obj); mtl: url(https://raw.githubusercontent.com/immunesystemvr/Immune-System-VR/master/plasmacell.mtl)" position="-.59 -.02 -1.5" scale=".05 .05 .05" visible="true">
 </a-sky> 
 </a-scene>
   </body>
