@@ -47,7 +47,7 @@
 <a-animation attribute="visible" begin="15500" to="true"></a-animation>  
 <a-animation attribute="visible" begin="27000" to="false"></a-animation>
 </a-cone>
-<a-text value="antigen" position="-.91 2.25 -1.08" color="#0000ff" scale=".2 .2 .2" visible="false">
+<a-text value="antigen" position="-.91 2.25 -1.08" color="#0000ff" scale=".25 .25 .25" visible="false">
 <a-animation attribute="visible" begin="15500" to="true"></a-animation>  
 <a-animation attribute="visible" begin="27000" to="false"></a-animation>    
 </a-text>
