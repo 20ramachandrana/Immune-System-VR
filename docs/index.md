@@ -19,7 +19,14 @@
 <a-animation attribute="position" begin="14000" from="-.81 1.801 -1.19" to="-.81 2.39 -1.19" for="2000"></a-animation>
 <a-animation attribute="visible" begin="27000" to="false"></a-animation>
 </a-entity>
+<!-- Pathogen 1 -->
 <a-entity obj-model="obj: url(https://raw.githubusercontent.com/immunesystemvr/Immune-System-VR/master/pathogen.obj); mtl: url(https://raw.githubusercontent.com/immunesystemvr/Immune-System-VR/master/pathogen.mtl)" scale=".05 .05 .05" position="-1.59 1.889 -1.3" visible="false">
+<a-animation attribute="visible" begin="500" to="true"></a-animation>
+<a-animation attribute="position" begin="4000" from="-1.59 1.889 -1.3" to="-.73 2.567 -1.3" for="1000"></a-animation>
+<a-animation attribute="visible" begin="15000" to="false"></a-animation>
+</a-entity>
+<!-- Pathogen 2 -->
+<a-entity obj-model="obj: url(https://raw.githubusercontent.com/immunesystemvr/Immune-System-VR/master/pathogen.obj); mtl: url(https://raw.githubusercontent.com/immunesystemvr/Immune-System-VR/master/pathogen.mtl)" scale=".05 .05 .05" position="-.76 2.863 -1.3" visible="false">
 <a-animation attribute="visible" begin="500" to="true"></a-animation>
 <a-animation attribute="position" begin="4000" from="-1.59 1.889 -1.3" to="-.73 2.567 -1.3" for="1000"></a-animation>
 <a-animation attribute="visible" begin="15000" to="false"></a-animation>
