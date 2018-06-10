@@ -32,10 +32,10 @@
  </a-text>
 <a-text value="macrophage processed antigen, alerting t cell" color="#0000ff" visible="false" position="-3.13 3.541 -1.33">
 <a-animation attribute="visible" begin="14500" to="true"></a-animation></a-text>
-<a-cone color="#0000ff" rotation="180 0 0" scale=".03 .09 .03" position="-.84 2.25 -1.19" visible="false">
+<a-cone color="#cf2d66" rotation="180 0 0" scale=".03 .09 .03" position="-.84 2.25 -1.19" visible="false">
 <a-animation attribute="visible" begin="15000" to="true"></a-animation></a-text>   
 </a-cone>
-<a-entity obj-model="obj: url(https://raw.githubusercontent.com/immunesystemvr/Immune-System-VR/master/htc.obj); mtl: url(https://raw.githubusercontent.com/immunesystemvr/Immune-System-VR/master/htc.mtl)" position="-.71 -.021 -1.19" scale=".05 .05 .05" visible="false">
+<a-entity obj-model="obj: url(https://raw.githubusercontent.com/immunesystemvr/Immune-System-VR/master/htc.obj); mtl: url(https://raw.githubusercontent.com/immunesystemvr/Immune-System-VR/master/htc.mtl)" position="-.71 -.021 -1.19" scale=".1 .1 .1" visible="false">
 <a-animation attribute="visible" begin="6500" to="true"></a-animation>
 <a-animation attribute="position" begin="7000" from="-.71 -.021 -1.37" to="-.71 1 -1.19" for="4000"></a-animation>
 <a-animation attribute="position" begin="11000" from="-.71 1 -1.19" to="-.76 1.175 -1.19" for="500"></a-animation>
