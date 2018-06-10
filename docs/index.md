@@ -37,11 +37,11 @@
 </a-cone>
 <a-entity obj-model="obj: url(https://raw.githubusercontent.com/immunesystemvr/Immune-System-VR/master/htc.obj); mtl: url(https://raw.githubusercontent.com/immunesystemvr/Immune-System-VR/master/htc.mtl)" position="-.71 -.021 -1.19" scale=".1 .1 .1" visible="false">
 <a-animation attribute="visible" begin="15500" to="true"></a-animation>
-<a-animation attribute="position" begin="7000" from="-.71 -.021 -1.37" to="-.71 1 -1.19" for="4000"></a-animation>
-<a-animation attribute="position" begin="11000" from="-.71 1 -1.19" to="-.76 1.175 -1.19" for="500"></a-animation>
-<a-animation attribute="position" begin="11500" from="-.76 1.175 -1.19" to="-.76 1.671 -1.19" for="2000"></a-animation>
-<a-animation attribute="position" begin="13500" from="-.76 1.671 -1.19" to="-.81 1.801 -1.19" for="500"></a-animation>
-<a-animation attribute="position" begin="14000" from="-.81 1.801 -1.19" to="-.81 2.39 -1.19" for="2000"></a-animation>
+<a-animation attribute="position" begin="16000" from="-.71 -.021 -1.37" to="-.71 1 -1.19" for="4000"></a-animation>
+<a-animation attribute="position" begin="20000" from="-.71 1 -1.19" to="-.76 1.175 -1.19" for="500"></a-animation>
+<a-animation attribute="position" begin="20500" from="-.76 1.175 -1.19" to="-.76 1.671 -1.19" for="2000"></a-animation>
+<a-animation attribute="position" begin="22500" from="-.76 1.671 -1.19" to="-.81 1.801 -1.19" for="500"></a-animation>
+<a-animation attribute="position" begin="23000" from="-.81 1.801 -1.19" to="-.81 2.39 -1.19" for="2000"></a-animation>
 </a-entity>      
 </a-scene>
   </body>
