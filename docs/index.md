@@ -55,17 +55,17 @@
 <a-entity obj-model="obj: url(https://raw.githubusercontent.com/immunesystemvr/Immune-System-VR/master/blymph.obj); mtl: url(https://raw.githubusercontent.com/immunesystemvr/Immune-System-VR/master/blymph.mtl)" position="-.59 -.02 -1.5" scale=".2 .2 .2" visible="false">
 <a-animation attribute="visible" begin="27500" to="true"></a-animation>
 <a-animation attribute="position" begin="29000" from="-.59 -.0763 -1.37" to="-.59 .86 -1.5" for="4000"></a-animation>
-<a-animation attribute="position" begin="33000" from="-.59 .86 -1.5" to="-.59 1 -1.5" for="500"></a-animation>
-<a-animation attribute="position" begin="33500" from="-.59 1 -1.5" to="-.64 1.514 -1.5" for="2000"></a-animation>
-<a-animation attribute="position" begin="35500" from="-.65 .944 -1.5" to="-.71 1.602 -1.5" for="500"></a-animation>
+<a-animation attribute="position" begin="33000" from="-.59 .86 -1.5" to="-.65 .984 -1.5" for="500"></a-animation>
+<a-animation attribute="position" begin="33500" from="-.65 .984 -1.5" to="-.64 1.514 -1.5" for="2000"></a-animation>
+<a-animation attribute="position" begin="35500" from="-.65 1.514 -1.5" to="-.71 1.602 -1.5" for="500"></a-animation>
 <a-animation attribute="position" begin="36000" from="-.71 1.602 -1.5" to="-.7 2.175 -1.5" for="2000"></a-animation>
 </a-entity>
 <!-- top plasma -->
-<a-entity obj-model="obj: url(https://raw.githubusercontent.com/immunesystemvr/Immune-System-VR/master/plasmacell.obj); mtl: url(https://raw.githubusercontent.com/immunesystemvr/Immune-System-VR/master/plasmacell.mtl)" position="-.79 2.609 -1.17" scale=".04 .04 .04" visible="false">
+<a-entity obj-model="obj: url(https://raw.githubusercontent.com/immunesystemvr/Immune-System-VR/master/plasmacell.obj); mtl: url(https://raw.githubusercontent.com/immunesystemvr/Immune-System-VR/master/plasmacell.mtl)" position="-.79 2.609 -1.17" scale=".03 .03 .03" visible="false">
 <a-animation attribute="visible" begin="37500" to="true"></a-animation>
 </a-entity> 
 <!-- bottom plasma -->
-<a-entity obj-model="obj: url(https://raw.githubusercontent.com/immunesystemvr/Immune-System-VR/master/plasmacell.obj); mtl: url(https://raw.githubusercontent.com/immunesystemvr/Immune-System-VR/master/plasmacell.mtl)" position="-.66 -.02 -1.17" scale=".04 .04 .04" visible="false">
+<a-entity obj-model="obj: url(https://raw.githubusercontent.com/immunesystemvr/Immune-System-VR/master/plasmacell.obj); mtl: url(https://raw.githubusercontent.com/immunesystemvr/Immune-System-VR/master/plasmacell.mtl)" position="-.66 -.02 -1.17" scale=".03 .03 .03" visible="false">
 <a-animation attribute="visible" begin="37500" to="true"></a-animation>
 </a-entity>
 </a-sky> 
