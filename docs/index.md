@@ -35,7 +35,7 @@
 <a-animation attribute="visible" begin="19000" to="false"></a-animation> 
 </a-text>
 <a-cone color="#cf2d66" rotation="180 0 0" scale=".03 .09 .03" position="-.84 2.25 -1.19" visible="false">
-<a-animation attribute="visible" begin="15000" to="true"></a-animation>  
+<a-animation attribute="visible" begin="15500" to="true"></a-animation>  
 </a-text>   
 </a-cone>
 <a-entity obj-model="obj: url(https://raw.githubusercontent.com/immunesystemvr/Immune-System-VR/master/htc.obj); mtl: url(https://raw.githubusercontent.com/immunesystemvr/Immune-System-VR/master/htc.mtl)" position="-.71 -.021 -1.19" scale=".07 .07 .07" visible="false">
