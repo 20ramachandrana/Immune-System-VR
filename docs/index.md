@@ -26,7 +26,7 @@
 <a-animation attribute="visible" begin="15000" to="false"></a-animation>
 </a-entity>
 <!-- Pathogen 2 -->
-<a-entity obj-model="obj: url(https://raw.githubusercontent.com/immunesystemvr/Immune-System-VR/master/pathogen.obj); mtl: url(https://raw.githubusercontent.com/immunesystemvr/Immune-System-VR/master/pathogen.mtl)" scale=".05 .05 .05" position="-1.59 1.889 -1.3" visible="false"> 
+<a-entity obj-model="obj: url(https://raw.githubusercontent.com/immunesystemvr/Immune-System-VR/master/pathogen.obj); mtl: url(https://raw.githubusercontent.com/immunesystemvr/Immune-System-VR/master/pathogen.mtl)" scale=".05 .05 .05" position="-1.59 2.07 -1.3" visible="false"> 
 <a-animation attribute="visible" begin="500" to="true"></a-animation>
 <a-animation attribute="position" begin="4000" from="-1.59 1.889 -1.3" to="-.74 2.863 -1.3" for="1000"></a-animation>
 </a-entity>
