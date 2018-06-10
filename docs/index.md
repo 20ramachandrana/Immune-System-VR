@@ -81,6 +81,15 @@
 <a-animation attribute="position" begin="38500" from="-.8 2.502 -1.17" to="-.81 2.650 -1.17" for="200"></a-animation>
 <a-animation attribute="visible" begin="40000" to="false"></a-animation>
 </a-entity>
+<a-entity obj-model="obj: url(https://raw.githubusercontent.com/immunesystemvr/Immune-System-VR/master/memorycell.obj); mtl: url(https://raw.githubusercontent.com/immunesystemvr/Immune-System-VR/master/memorycell.mtl)" position="-.7 2.476 -1.5" scale=".2 .2 .2" visible="false">
+<a-animation attribute="visible" begin="40000" to="true"></a-animation>
+<a-animation attribute="position" begin="41000" from="-.7 2.476 -1.5" to="-.7 1.602 -1.5" for="2000"></a-animation>
+<a-animation attribute="position" begin="43000" from="-.7 1.602 -1.5" to="-.64 1.514 -1.5" for="500"></a-animation>
+<a-animation attribute="position" begin="43500" from="-.64 1.514 -1.5" to="-.64 .955 -1.5" for="500"></a-animation>
+<a-animation attribute="position" begin="44000" from="-.64 .955 -1.5" to="-.59 .895 -1.5" for="500"></a-animation>
+<a-animation attribute="position" begin="44500" from="-.59 .895 -1.5" to="-.59 -.18 -1.5" for="500"></a-animation>
+<a-animation attribute="visible" begin="45000" to="false"></a-animation>
+</a-entity>
 </a-sky> 
 </a-scene>
   </body>
