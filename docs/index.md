@@ -35,7 +35,7 @@
 <a-animation attribute="visible" begin="14500" to="true"></a-animation>
 <a-animation attribute="visible" begin="21000" to="false"></a-animation> 
 </a-text>
-<a-cone color="#cf2d66" rotation="180 0 0" scale=".03 .09 .03" position="-.84 2.25 -1.19" visible="false">
+<a-cone color="#cf2d66" rotation="180 0 0" scale=".04 .09 .04" position="-.84 2.25 -1.19" visible="false">
 <a-animation attribute="visible" begin="15500" to="true"></a-animation>  
 <a-animation attribute="visible" begin="27000" to="false"></a-animation>
 </a-cone>
