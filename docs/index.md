@@ -65,7 +65,7 @@
 <a-animation attribute="visible" begin="37500" to="true"></a-animation>
 </a-entity> 
 <!-- bottom plasma -->
-<a-entity obj-model="obj: url(https://raw.githubusercontent.com/immunesystemvr/Immune-System-VR/master/plasmacell.obj); mtl: url(https://raw.githubusercontent.com/immunesystemvr/Immune-System-VR/master/plasmacell.mtl)" position="-.66 -.02 -1.17" scale=".025 .025 .025" visible="false">
+<a-entity obj-model="obj: url(https://raw.githubusercontent.com/immunesystemvr/Immune-System-VR/master/plasmacell.obj); mtl: url(https://raw.githubusercontent.com/immunesystemvr/Immune-System-VR/master/plasmacell.mtl)" position="-.68 -.02 -1.17" scale=".025 .025 .025" visible="false">
 <a-animation attribute="visible" begin="37500" to="true"></a-animation>
 </a-entity>
 </a-sky> 
