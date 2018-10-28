@@ -3,13 +3,13 @@
     <script src="https://aframe.io/releases/0.8.0/aframe.min.js"></script>
   </head>
   <body>
-<a-scene>
-<a-sky color="#bfbfbf"></a-sky> 
+<a-scene scale=".3 .3 .3">
+      <a-sky color= #87CEFA></a-sky>  
+ <a-sky color="#bfbfbf"></a-sky> 
 <a-entity position="-.81 1.81 1.237">
   <a-camera>
 </a-camera>
 </a-entity>
-<a-entity obj-model="obj: url(https://raw.githubusercontent.com/anoncs50/Immune-System-VR/master/vr.obj); mtl: url(https://raw.githubusercontent.com/anoncs50/Immune-System-VR/master/vr.mtl)" position="0.3 0 -.8"></a-entity>
 <a-entity obj-model="obj: url(https://raw.githubusercontent.com/anoncs50/Immune-System-VR/master/macrophage.obj); mtl: url(https://raw.githubusercontent.com/anoncs50/Immune-System-VR/master/macrophage.mtl)" position="-.71 -.021 -1.19" scale=".05 .05 .05" visible="false">
 <a-animation attribute="visible" begin="6500" to="true"></a-animation>
 <a-animation attribute="position" begin="7000" from="-.71 -.021 -1.37" to="-.71 1 -1.19" for="4000"></a-animation>
@@ -20,18 +20,18 @@
 <a-animation attribute="visible" begin="27000" to="false"></a-animation>
 </a-entity>
 <!-- Pathogen 1 -->
-<a-entity obj-model="obj: url(https://raw.githubusercontent.com/anoncs50/Immune-System-VR/master/pathogen.obj); mtl: url(https://raw.githubusercontent.com/immunesystemvr/Immune-System-VR/master/pathogen.mtl)" scale=".05 .05 .05" position="-1.59 1.889 -1.25" visible="false">
+<a-entity obj-model="obj: url(https://raw.githubusercontent.com/anoncs50/Immune-System-VR/master/pathogen.obj); mtl: url(https://raw.githubusercontent.com/anoncs50/Immune-System-VR/master/pathogen.mtl)" scale=".05 .05 .05" position="-1.59 1.889 -1.25" visible="false">
 <a-animation attribute="visible" begin="500" to="true"></a-animation>
 <a-animation attribute="position" begin="4000" from="-1.59 1.889 -1.25" to="-.73 2.567 -1.25" for="1000"></a-animation>
 <a-animation attribute="visible" begin="15000" to="false"></a-animation>
 </a-entity>
 <!-- Pathogen 2 -->
-<a-entity obj-model="obj: url(https://raw.githubusercontent.com/immunesystemvr/Immune-System-VR/master/pathogen.obj); mtl: url(https://raw.githubusercontent.com/immunesystemvr/Immune-System-VR/master/pathogen.mtl)" scale=".05 .05 .05" position="-1.59 2.07 -1.25" visible="false"> 
+<a-entity obj-model="obj: url(https://raw.githubusercontent.com/anoncs50/Immune-System-VR/master/pathogen.obj); mtl: url(https://raw.githubusercontent.com/anoncs50/Immune-System-VR/master/pathogen.mtl)" scale=".05 .05 .05" position="-1.59 2.07 -1.25" visible="false"> 
 <a-animation attribute="visible" begin="500" to="true"></a-animation>
 <a-animation attribute="position" begin="4000" from="-1.59 1.889 -1.25" to="-.74 2.863 -1.25" for="1000"></a-animation>
 <a-animation attribute="visible" begin="40000" to="false"></a-animation>
 </a-entity>
-<a-entity obj-model="obj: url(https://raw.githubusercontent.com/immunesystemvr/Immune-System-VR/master/infresp.obj); mtl: url(https://raw.githubusercontent.com/immunesystemvr/Immune-System-VR/master/infresp.mtl)" position="0.414 -.02 -.74">
+<a-entity obj-model="obj: url(https://raw.githubusercontent.com/anoncs50/Immune-System-VR/master/infresp.obj); mtl: url(https://raw.githubusercontent.com/anoncs50/Immune-System-VR/master/infresp.mtl)" position="0.414 -.02 -.74">
 <a-animation attribute="scale" begin="5500" from="1 1 1" to="1.1 1.1 1.1"></a-animation>
 </a-entity>
 <a-text value="skin with a cut" position="-1.07 1.897 -1.13" color="#0000ff" rotation="0 0 -90"></a-text>
@@ -51,7 +51,7 @@
 <a-animation attribute="visible" begin="15500" to="true"></a-animation>  
 <a-animation attribute="visible" begin="27000" to="false"></a-animation>    
 </a-text>
-<a-entity obj-model="obj: url(https://raw.githubusercontent.com/immunesystemvr/Immune-System-VR/master/htc.obj); mtl: url(https://raw.githubusercontent.com/immunesystemvr/Immune-System-VR/master/htc.mtl)" position="-.71 -.021 -1.19" scale=".07 .07 .07" visible="false">
+<a-entity obj-model="obj: url(https://raw.githubusercontent.com/anoncs50/Immune-System-VR/master/htc.obj); mtl: url(https://raw.githubusercontent.com/anoncs50/Immune-System-VR/master/htc.mtl)" position="-.71 -.021 -1.19" scale=".07 .07 .07" visible="false">
 <a-animation attribute="visible" begin="15500" to="true"></a-animation>
 <a-animation attribute="position" begin="16000" from="-.71 -.021 -1.37" to="-.71 1 -1.19" for="4000"></a-animation>
 <a-animation attribute="position" begin="20000" from="-.71 1 -1.19" to="-.76 1.175 -1.19" for="500"></a-animation>
@@ -60,7 +60,7 @@
 <a-animation attribute="position" begin="23000" from="-.81 1.801 -1.19" to="-.83 1.929 -1.19" for="2000"></a-animation>
 <a-animation attribute="visible" begin="27000" to="false"></a-animation>
 </a-entity>
-<a-entity obj-model="obj: url(https://raw.githubusercontent.com/immunesystemvr/Immune-System-VR/master/blymph.obj); mtl: url(https://raw.githubusercontent.com/immunesystemvr/Immune-System-VR/master/blymph.mtl)" position="-.59 -.02 -1.5" scale=".2 .2 .2" visible="false">
+<a-entity obj-model="obj: url(https://raw.githubusercontent.com/anoncs50/Immune-System-VR/master/blymph.obj); mtl: url(https://raw.githubusercontent.com/anoncs50/Immune-System-VR/master/blymph.mtl)" position="-.59 -.02 -1.5" scale=".2 .2 .2" visible="false">
 <a-animation attribute="visible" begin="27500" to="true"></a-animation>
 <a-animation attribute="position" begin="29000" from="-.59 -.0763 -1.37" to="-.59 .86 -1.5" for="4000"></a-animation>
 <a-animation attribute="position" begin="33000" from="-.59 .86 -1.5" to="-.65 .984 -1.5" for="500"></a-animation>
@@ -70,18 +70,18 @@
 <a-animation attribute="visible" begin="40000" to="false"></a-animation>
 </a-entity>
 <!-- top plasma -->
-<a-entity obj-model="obj: url(https://raw.githubusercontent.com/immunesystemvr/Immune-System-VR/master/plasmacell.obj); mtl: url(https://raw.githubusercontent.com/immunesystemvr/Immune-System-VR/master/plasmacell.mtl)" position="-.7 2.476 -1.17" scale=".025 .025 .025" visible="false">
+<a-entity obj-model="obj: url(https://raw.githubusercontent.com/anoncs50/Immune-System-VR/master/plasmacell.obj); mtl: url(https://raw.githubusercontent.com/anoncs50/Immune-System-VR/master/plasmacell.mtl)" position="-.7 2.476 -1.17" scale=".025 .025 .025" visible="false">
 <a-animation attribute="visible" begin="37500" to="true"></a-animation>
 <a-animation attribute="position" begin="38500" from="-.8 2.476 -1.17"  to="-.81 2.704 -1.17" for="1000"></a-animation>
 <a-animation attribute="visible" begin="40000" to="false"></a-animation>
 </a-entity> 
 <!-- bottom plasma -->
-<a-entity obj-model="obj: url(https://raw.githubusercontent.com/immunesystemvr/Immune-System-VR/master/plasmacell.obj); mtl: url(https://raw.githubusercontent.com/immunesystemvr/Immune-System-VR/master/plasmacell.mtl)" position="-.8 2.502 -1.17" scale=".025 .025 .025" visible="false">
+<a-entity obj-model="obj: url(https://raw.githubusercontent.com/anoncs50/Immune-System-VR/master/plasmacell.obj); mtl: url(https://raw.githubusercontent.com/anoncs50/Immune-System-VR/master/plasmacell.mtl)" position="-.8 2.502 -1.17" scale=".025 .025 .025" visible="false">
 <a-animation attribute="visible" begin="37500" to="true"></a-animation>
 <a-animation attribute="position" begin="38500" from="-.8 2.502 -1.17" to="-.81 2.650 -1.17" for="200"></a-animation>
 <a-animation attribute="visible" begin="40000" to="false"></a-animation>
 </a-entity>
-<a-entity obj-model="obj: url(https://raw.githubusercontent.com/immunesystemvr/Immune-System-VR/master/memorycell.obj); mtl: url(https://raw.githubusercontent.com/immunesystemvr/Immune-System-VR/master/memorycell.mtl)" position="-.7 2.476 -1.5" scale=".2 .2 .2" visible="false">
+<a-entity obj-model="obj: url(https://raw.githubusercontent.com/anoncs50/Immune-System-VR/master/memorycell.obj); mtl: url(https://raw.githubusercontent.com/anoncs50/Immune-System-VR/master/memorycell.mtl)" position="-.7 2.476 -1.5" scale=".2 .2 .2" visible="false">
 <a-animation attribute="visible" begin="40000" to="true"></a-animation>
 <a-animation attribute="position" begin="41000" from="-.7 2.476 -1.5" to="-.7 1.602 -1.5" for="2000"></a-animation>
 <a-animation attribute="position" begin="43000" from="-.7 1.602 -1.5" to="-.64 1.514 -1.5" for="500"></a-animation>
