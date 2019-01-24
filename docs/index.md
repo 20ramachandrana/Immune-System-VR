@@ -4,7 +4,6 @@
   </head>
   <body>
 <a-scene scale=".3 .3 .3">
-      <a-sky color= #87CEFA></a-sky>  
  <a-sky color="#bfbfbf"></a-sky> 
 <a-entity position="-.81 1.81 1.237">
   <a-camera>
@@ -32,6 +31,9 @@
 <a-animation attribute="visible" begin="40000" to="false"></a-animation>
 </a-entity>
 <a-entity obj-model="obj: url(https://raw.githubusercontent.com/anoncs50/Immune-System-VR/master/infresp.obj); mtl: url(https://raw.githubusercontent.com/anoncs50/Immune-System-VR/master/infresp.mtl)" position="0.414 -.02 -.74">
+<a-animation attribute="scale" begin="5500" from="1 1 1" to="1.1 1.1 1.1"></a-animation>
+</a-entity>
+<a-entity obj-model="obj: url(https://raw.githubusercontent.com/anoncs50/Immune-System-VR/master/vr.obj); mtl: url(https://raw.githubusercontent.com/anoncs50/Immune-System-VR/master/vr.mtl)" position="0.416 -.169 -.76">
 <a-animation attribute="scale" begin="5500" from="1 1 1" to="1.1 1.1 1.1"></a-animation>
 </a-entity>
 <a-text value="skin with a cut" position="-1.07 1.897 -1.13" color="#0000ff" rotation="0 0 -90"></a-text>
@@ -102,7 +104,6 @@
 <a-animation attribute="visible" begin="42000" to="true"></a-animation>
 <a-animation attribute="visible" begin="52000" to="false"></a-animation> 
 </a-text>
-</a-sky> 
 </a-scene>
-  </body>
+    </body>
 </html>
